@@ -14,3 +14,4 @@ val fussyActor = actor {
 fussyActor ! "testing"
 fussyActor ! List(1,2,3,4)
 fussyActor ! 3
+fussyActor.!(4)
